@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<div class="login_box">
+    <form  method = "post">
+        <div class="form_title"><b>Change Password</b></div>
+
+        <div class="form_item">
+
+            <label class="form_label">Email</label>
+            <input type="email" name="Email" class="form_input">
+
+            <label class="form_label">New Password</label>
+            <input type="password" name="Password" class="form_input">
+            <span><?php echo $error; ?></span>
+
+            <label class="form_label">Confirm Password</label>
+            <input type="password" name="Password" class="form_input">
+            <span><?php echo $error; ?></span>           
+
+            <button class="B1" type="submit" value=" Submit ">Confirm</button>
+        </div>
+       
+    </form>
+</div>
+
+</body>
+</html>

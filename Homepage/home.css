@@ -1,0 +1,270 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f4f4f4f4; 
+	color: #555555;
+	line-height:1.6em;
+	font-weight: 400;
+}
+
+.header1{
+	padding: 100px; 
+  	text-align: center;   
+ 	color: 	#292929; 	
+ 	font-size: 1.05em; 	
+ 	/*border: 1px solid;*/
+}
+
+.header1 .head{
+	font-size:70px;	
+	border: 100px;
+	color: white;
+	/*font-size: 1.75rem;*/
+    line-height: 1.2;
+    font-family: Pacifico;
+    font-weight: 1000;
+    color: #DC143C;	   
+}
+.header1 .font{
+	font-family: Pacifico;
+	color: white;
+	font-size: 30px;
+}
+
+.header1 .B2{	
+	padding: 10px; 
+  	text-align: center;
+  	font-size: 1rem;  	
+  	margin-top: 2px;
+
+  	background-color: #ddd;
+  	color: #292929;
+  	border-radius: .25rem;
+  	border: none;
+  	margin: 1.1875rem 0 1.375rem; 
+  	transition: 0.05s; 	
+}
+.B2:hover{
+	background-color: #DC143C;	
+	color: black;
+}
+
+
+.B1{
+	/*padding: 20px;*/
+	height: auto; 
+	padding:.75rem .8125rem;
+	font-size: 1rem;
+  	text-align: center; 
+  	margin-top: 8px;
+  	background: #ffbc0d;
+  	color: #292929;
+  	border-radius: .25rem;
+  	border: none;
+  	margin: 1.1875rem 0 1.375rem;
+    display: inline-block;
+}
+.B1:hover{	
+	transform: scale(1.055);	/*magnifies the button*/
+	
+}
+
+.nav{
+	overflow: hidden;
+}
+.nav a{
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 20px;
+	cursor: pointer;	
+	text-decoration: none;
+}
+#login{
+	float: left;
+}
+
+.nav button.right{
+	float: right;
+	padding: 15px; 
+  	text-align: center;
+  	font-size: 1rem;  	
+  	margin-top: 4px;
+
+  	background-color: #ddd;
+  	color: #292929;
+  	border-radius: .25rem;
+  	border: none;
+  	margin: 1.1875rem 0 1.375rem; 
+  	transition: 0.1s; 	
+}
+.nav button.right:hover{
+	background-color: #ffbc0d;
+	color: black;
+}
+
+.nav a:hover{
+	background-color: #ffbc0d;
+	color: black;
+	border-radius: .25rem;
+}
+
+.nav img{
+	float: center;
+	margin-left: 120px;
+}
+
+.small{
+	font-family: speedee;    
+    font-size:13px; 
+    padding: 0;
+    display: inline-block;
+}
+
+.nav img:hover{
+	transform: scale(2);
+	/*box-shadow: 0 0.5em 0.5em -0.4em var(--hover);*/
+  transform: translateY(-0.85em);
+
+}
+
+/*second section*/
+
+.pri{
+	flex: 10%;	
+	padding: 20px;
+	margin-bottom: 50px;
+}
+/*
+.pri:hover{
+	background-color: #1abc9c;
+	color: black;
+}*/
+.pri{
+	/*max-width: 1000px;
+ 	position: relative;*/
+  	margin: auto; 
+  	display: flex;
+  	flex-wrap: wrap;  	 
+  	box-sizing:border-box;
+  	overflow-wrap: break-word;	
+}
+
+.pri .text{
+	text-align: right;  
+}
+
+.pri1{
+	flex: 40%;
+}
+
+.pri2{
+	flex: 30%
+	margin-right: 0px;
+	text-align: right;
+	padding: 10px;	
+}
+
+.pri2 h2{
+	text-align: justify;
+}
+
+
+/*last fold*/
+
+.d0{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 100px;	
+}
+
+.d1{
+	flex: 30%;	
+	padding: 10px;
+	text-align: justify;
+	text-decoration: none;		
+}
+
+.d1 img{
+	vertical-align: middle;
+}
+.d2{
+	flex: 32%;
+	/*background-color: #f1f1f1;*/
+	padding: 12px;
+	text-align: justify;	
+}
+.d3{
+	flex: 30%;
+	/*background-color: #f1f1f1;*/
+	padding: 10px;
+	text-align: justify;
+}
+	
+
+/*.d1:hover{
+	background-color: #1abc9c;
+	color: black;
+}
+.d2:hover{
+	background-color: #1abc9c;
+	color: black;
+}
+.d3:hover{
+	background-color: #1abc9c;
+	color: black;
+}*/
+
+.footer{
+  padding: 10px;
+  width:20%; 
+  text-align: left;   
+  border: 1px;
+  margin-top: 50px;
+  text-decoration: none;
+  display: flex;  
+  clear:both
+
+}
+
+.footer a{
+	text-decoration: none;
+	list-style: none;
+	color: #292929;
+	display:inline-block;
+  	width: 200px;      
+}
+
+.footer li{
+	/*float: left;*/
+	text-decoration: none;
+	list-style: none;
+}
+
+.footer .list1{
+	
+   
+}
+
+.copyright img{
+	width: 1.4375rem;
+    display: inline-block;
+    margin-left: 8px;
+    margin-left: .5rem;
+    vertical-align: middle;
+    width: 60px;
+    height: 55px;
+}
+
+.copyright{
+	font-size: 14px;
+	color: black;
+}
+
+img:hover{
+	transform: scale(1.055); /*magnifies image*/
+}
+
+
+
+/* Published by Drew Coders and Co. */ 

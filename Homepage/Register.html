@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal Details form</title>
+	<link rel="stylesheet" type="text/css" href="reg.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	
+	<form action="reg.php" method="POST">
+		<div class="form_title">Sign Up</div>	
+
+		<div class="form_item">
+		
+				<!-- The "id" via input type must have the same value as the label "for" value -->			
+				<label for ="first_name" class="form_label">First Name</label>
+				<input type="text" class="form_input" name="FName" id="first_name" placeholder="Enter first name">			
+			
+				<label for ="surname" class="form_label">Surname</label>
+				<input type="text" class="form_input" name="SName" id="surname" placeholder="Enter your surname">	
+			
+				<label for="email_add" class="form_label">Email</label>
+				<input type="email" class="form_input" name="Email" placeholder="food@example.com">			
+			
+				<label for="p_number" class="form_label">Phone Number</label>
+				<input type="number" class="form_input" name="PhoneNo" id="p_number">
+
+				<label for="pword" class="form_label">Password</label>
+				<input type="password" class="form_input" name="Password">	
+						
+		</div>
+				<br>
+				<input type="radio" name="Gender" id="gender_1" value="Male">
+				<label for="gender_1" class="form_label">Male</label>
+			
+				<input type="radio" name="Gender" id="gender_2" value="Female">
+				<label for="gender_2" class="form_label">Female</label><br><br>
+
+				<button class="B1" type="submit" name="register_btn">Sign Up</button>
+	</form>
+</body>
+</html>
